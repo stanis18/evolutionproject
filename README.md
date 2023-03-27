@@ -67,6 +67,24 @@ docker-compose up
 ```
 
 
+## Running The Verification Tool
+
+
+This Docker allows us to quickly run the Verification Tool.
+To build the tool in a docker container you should clone the project and in the tool directory run the the following command:
+
+```
+docker-compose up --build tool
+```
+
+The tool can be accessed through the link: http://localhost:3000/#/
+
+To access the features of the tool it is necessary to have a metamask wallet. All instructions for creating, importing, and getting backgrounds are on the tool's documentation page.
+
+
+
+
+
 ##  Citing
 
 This research is a part of effort to extend the work that we present in the 20th International Conference on
